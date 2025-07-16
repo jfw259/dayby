@@ -1,0 +1,12 @@
+x=True
+print(x)
+print(type(x))
+print(x+10)
+print(False+10)
+print(bool(18))#测试一下整数18的布尔值
+print(bool(0))#False
+#总结，非0的整数的布尔值都是True
+print(bool('北京'))#true
+print(bool(''))#false
+print(bool(False))#false
+print(bool(None))#false
