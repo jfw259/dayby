@@ -1,0 +1,10 @@
+n=input("输入一个四位数：")
+print("个位上的数：",n[3])
+print("十位上的数：",n[2])
+print('百位上的数：',n[1])
+print('千位上的数：',n[:-3])
+father=eval(input('父亲身高：'))
+print(type(father))
+mother=eval(input('母亲身高：'))
+boy=(father+mother)*0.54
+print(boy)
