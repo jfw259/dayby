@@ -1,0 +1,21 @@
+x=10#数据类型转换
+y=3
+z=x/y
+print(z,type(z))#3.333333333333333335隐式转换，通过运算隐式的转了结果的类型
+#float变int类型,int变float
+print(int(3.14))
+print(float(3.14))
+print(float(10))
+print(int(3.9))
+print(int(-3.9))
+#str转int
+#print(int('-3.9')+int('4.9'))          #ValueError: invalid literal for int() with base 10: '-3.9'
+                                         #因为-3.9，4.9本身不是一个整数，computer没有办法转为整数
+print(int('100')+int('-100'))
+#chr()ord()一对
+print(ord('江'))#江在unicode表中对应数字
+print(chr(27743))#27743在unicode表中对应字符串
+#进制转换
+print('十进制转成十六进制：',hex(27743))
+print('十进制转八进制：',oct(27743))
+print('十进制转二进制：',bin(27743))
